@@ -1,9 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { PostType } from "../types/post";
 
 export default function Post({ id, name, avatar, postTitle, comments }: any) {
   return (

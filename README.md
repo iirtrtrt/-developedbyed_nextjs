@@ -13,6 +13,12 @@ node18 LTS<br>
 next13<br>
 react18<br>
 
+.env file format below:<br>
+DATABASE_URL=<br>
+GOOGLE_CLIENT_ID=<br>
+GOOGLE_CLIENT_SECRET=<br>
+AUTH_SECRET=<br>
+
 ## Installation
 
 ### Localhost

@@ -4,10 +4,6 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import CreatePost from "./post/create_post";
 import Post from "./post/post";
-import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { Key } from "react";
 import { PostType } from "./types/post";
 
 // Get posts
@@ -23,10 +19,10 @@ export default function Home() {
   });
 
   if (error) {
-    return error;
+    return <div>Error: {String(error)}</div>;
   }
   if (isLoading) {
-    return "Loading";
+    return <div>Loading</div>;
   }
 
   return (
