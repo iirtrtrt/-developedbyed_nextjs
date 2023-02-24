@@ -3,6 +3,8 @@
 ### Description
 
 This is clone coding of https://www.youtube.com/watch?v=4xduSsxa5Os<br>
+It is about Nextjs 13, Reactjs with tailwind, and Prisma with postgresql.
+Plus RESTFul API.
 
 ## Getting Started
 
